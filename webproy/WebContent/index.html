@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Guitarras invie</title>
+
+<style media="screen">
+body {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+</style>
+</head>
+<body>
+	<script>
+
+
+function sumar(uno,dos)
+{
+var total;
+total = parseInt(uno.value)+parseInt(dos.value);
+alert("El valor es " + total);
+
+}
+</script>
+
+	<img src="fondo.jpg" alt="">
+
+	<center>
+		<h1>calcular suma</h1>
+		<from action="AgregaServlet" method="post">
+		<center>
+			<table align="center">
+
+				<tr>
+
+					<form name="prueba">
+						
+						<input type="text" name="uno">
+						
+						<input type="text" name="dos"> <input type="button"
+							name="Ver total" value="Ver total" onclick="sumar(uno,dos)">
+					</form>
+				</tr>
+				
+
+
+
+			</table>
+		</center>
+		</from>
+	</center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
